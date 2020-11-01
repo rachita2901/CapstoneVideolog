@@ -26,7 +26,7 @@ deleteButton.addEventListener('click', _ => {
         method: 'delete',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-        name: 'xyz'
+        name: 'qaz'
         })
          })
         .then(res => {
